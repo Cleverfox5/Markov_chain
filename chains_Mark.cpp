@@ -39,7 +39,7 @@ void step_by_step(int matrix[8][8], int steps, int start_condition_index) {
         }
     }
 
-    cout << "\nЧерез " << steps << " шагов - наступило событие:" << start_condition_index << "\n";
+    cout << "\nЧерез " << steps << " шагов - наступило событие:" << start_condition_index + 1 << "\n";
     cout << "Что касаемо остальных событий:\n";
     cout << "Посещено:\n";
 
